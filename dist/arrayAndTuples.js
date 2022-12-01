@@ -1,0 +1,11 @@
+"use strict";
+var friends = ["Mahasin", "Ashik", "Swyeb"];
+friends.push("Nowaj");
+// friends.push(957);
+var newFriends = friends.map(function (friend, index) { return index + 1 + "." + friend; });
+console.log(friends, newFriends);
+var mobiles = ["Samsun", "apple", "oppo"];
+mobiles.push("Nokia");
+mobiles.push(false);
+mobiles.push(56);
+console.log(mobiles);
